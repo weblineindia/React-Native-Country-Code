@@ -1,0 +1,67 @@
+{
+    "country": [
+        {
+          "id": 1,
+          "country": "Australia",
+          "countryCode": "+61",
+          "alpha2": "AU",
+          "alpha3": "AUS",
+          "length": 10,
+          "regex": ""
+        },
+        {
+          "id": 2,
+          "country": "France",
+          "countryCode": "+33",
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "length": 10,
+          "regex": "^(?:0)?(\s)?(6|7)(?:[\s.-]*\d{2}){4}$"
+        },
+        {
+          "id": 3,
+          "country": "Germany",
+          "countryCode": "+49",
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "length": 11,
+          "regex": "^(?:0)?(\s)?(1[567])\d{8,9}$"
+        },
+        {
+          "id": 4,
+          "country": "India",
+          "countryCode": "+91",
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "length": 10,
+          "regex": "^(6[3]|7[02356789]|8[012345678]|9[013456789])\d{8}$"
+        },
+        {
+          "id": 5,
+          "country": "Italy",
+          "countryCode": "+39",
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "length": 11,
+          "regex": "^(38[890]|34[7-90]|36[680]|33[3-90]|32[89])\d{6,7}$"
+        },
+        {
+          "id": 6,
+          "country": "Kenya",
+          "countryCode": "+254",
+          "alpha2": "KE",
+          "alpha3": "KEN",
+          "length": 9,
+          "regex": ""
+        },
+        {
+          "id": 7,
+          "country": "United States of America",
+          "countryCode": "+1",
+          "alpha2": "US",
+          "alpha3": "USA",
+          "length": 10,
+          "regex": ""
+        }
+      ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "rn-weblineindia-country-code",
+  "title": "React Native Country Code",
+  "version": "1.0.0",
+  "description": "A lightweight node module to choose country in React-Native.",
+  "main": "src/index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "rn-weblineindia-country-code.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/rn-weblineindia-country-code.git",
+    "baseUrl": "https://github.com/github_account/rn-weblineindia-country-code"
+  },
+  "keywords": [
+    "rn-weblineindia-country-code",
+    "react-native-country-code",
+    "country-code",
+    "react-native"
+  ],
+  "author": {
+    "name": "Weblineindia"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "homepage": "https://www.weblineindia.com/software-development-resources.html",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  }
+}
