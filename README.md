@@ -22,7 +22,7 @@ A pure JavaScript ReactNative component for listing Country codes in your app.
 
 ## Supported versions
 
-We have tested this component in ReactNative 0.60 - 0.62.5. You can still use it in other versions.
+We have tested this component in ReactNative 0.60 - 0.67. You can still use it in other versions.
 
 ## Usage
 
@@ -43,7 +43,10 @@ openCountryCode() {
     this.props.navigation.navigate('CountryCode', {
     // Pass all props here... 
       isFrom: "HomeScreen",     // Your routeName
-      selectedValue: this.state.countryData
+      selectedValue: this.state.countryData,
+      onChangeValue: (data) => {
+        console.log('data ->', data)
+      }
     });
   }
 
