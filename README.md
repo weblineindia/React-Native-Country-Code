@@ -43,7 +43,6 @@ openCountryCode() {
     this.props.navigation.navigate('CountryCode', {
     // Pass all props here... 
       isFrom: "HomeScreen",     // Your routeName
-      selectedValue: this.state.countryData,
       onChangeValue: (data) => {
         console.log('data ->', data)
       }
@@ -55,13 +54,7 @@ openCountryCode() {
 </TouchableOpacity>
 ```
 
-Object of `selectedValue` is as below:
-```javascript
-{
-    "country": "Australia",
-    "countryCode": "+61"
-}
-```
+
 
 ## Props
 
@@ -70,13 +63,11 @@ Object of `selectedValue` is as below:
 | navigation           | `object` | yes          | Pass the navigation                                                           |
 | isFrom               | `string` | yes          | Pass the routeName \(Your current screen\)                                    |
 | navigationTheme      | `string` | no           | Navigation theme for the component\. There are two options 'light' and 'dark' |
-| selectedValue        | `object` | yes          | Default selected value                                                        |
 | placeholderTitle     | `string` | no           | Placeholder title                                                             |
 | placeholderTextColor | `string` | no           | Placeholder title color                                                       |
 | backArrowTintColor   | `string` | no           | Color to be displayed to the header back arrow                                |
 | searchViewStyle      | `object` | no           | Styles is passed to the search view                                           |
 | searchFieldStyle     | `object` | no           | Styles is passed to the search field text                                     |
-| selectedValueStyle   | `object` | no           | Styles is passed to the selected value                                        |
 | defaultValueStyle    | `object` | no           | Styles is passed to the default value \(Not Selected\)                        |
 
 ## Methods
